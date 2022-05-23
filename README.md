@@ -1,7 +1,7 @@
 # study-notes-of-pytorch-deep-learning-practice-course
 This repository is used to record my notes on _pytorch deep learning practice_ course, including noteworthy points, extended learning content and after-class exercises
-## About _pytoch deep learning practice_ course
-This course is designed to teach people how to use pytoch in practice.
+## About _pytorch deep learning practice_ course
+This course is designed to teach people how to use Pytorch in practice.
 
 
 ![Course screenshot from Bilibili](PytorchDeepLearningPracticeCourseScreenshot.png)
