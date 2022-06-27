@@ -35,7 +35,7 @@ for w in np.arange(0.0, 4.1, 0.1):
         b_list.append(b)
         mse_list.append(l_sum / 3)
 
-w_list_mesh, b_list_mesh = np.meshgrid(np.arange(0.0, 4.1, 0.1), np.arange(0.0, 4.1, 0.1))
+w_list_mesh, b_list_mesh = np.meshgrid(np.arange(0.0, 4.1, 0.1), np.arange(0.0, 4.1, 0.1), indexing='ij')
 mse_list_mesh = (np.array(mse_list)).reshape(41, 41)
 print('w', np.shape(w_list_mesh), 'b', np.shape(b_list_mesh), 'mse', np.shape(mse_list_mesh))
 
