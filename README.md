@@ -13,9 +13,12 @@ This course is designed to teach people how to use pytorch in practice.
 - [Course video page in Bilibili](https://www.bilibili.com/video/BV1Y7411d7Ys?p=1)
 - [x] Lesson2 Linear model
 - [Directory of Lesson2's study notes](studyNotes/lesson2)
-- [Explanatory video page in Bilibili](https://www.bilibili.com/video/BV19f4y1f7JR?spm_id_from=333.999.0.0)
+- [Explanatory video page in Bilibili](https://www.bilibili.com/video/BV1fN4y1377b/?vd_source=991f5e314cf15db946768ec01c49fc50)
 - [Course video page in Bilibili](https://www.bilibili.com/video/BV1Y7411d7Ys?p=2)
-- [ ] Lesson3 Gradient descent algorithm
+- [x] Lesson3 Gradient descent algorithm
+- [Directory of Lesson3's study notes](studyNotes/lesson3)
+- [Explanatory video page in Bilibili](https://www.bilibili.com/video/BV1vd4y1q7av/?vd_source=991f5e314cf15db946768ec01c49fc50)
+- [Course video page in Bilibili](https://www.bilibili.com/video/BV1Y7411d7Ys?p=3)
 - [ ] Lesson4 Back propagation
 - [ ] Lesson5 Using Pytorch to realize linear regression
 - [ ] Lesson6 Logistic regression
