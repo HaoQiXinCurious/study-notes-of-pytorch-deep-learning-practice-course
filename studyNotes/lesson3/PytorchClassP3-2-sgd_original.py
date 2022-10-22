@@ -24,12 +24,18 @@ def gradient(x, y):
 print('Predict (before training)', 'w=', w,  4, forward(4), '\n')
 epoch_list = []
 loss_list = []
-for epoch in range(100):
+iteration_list = []
+loss_list_iter = []
+for epoch in range(30):  # 改小一点方便看图
+    i = 0
     for x, y in zip(x_data, y_data):
         grad = gradient(x, y)
         w -= 0.01 * grad
         l = loss(x, y)
         print('\tgrad: ', x, y, grad)
+        i += 1
+        loss_list_iter.append(l)
+        iteration_list.append(epoch * 3 + i)
 
     loss_list.append(l)
     epoch_list.append(epoch)
@@ -38,7 +44,13 @@ for epoch in range(100):
 print('\nPredict (after training)', 'w=', w, 4, forward(4))
 
 
+plt.subplot(211)
 plt.plot(epoch_list, loss_list)
 plt.xlabel('Epoch')
+plt.ylabel('Loss')
+
+plt.subplot(212)
+plt.plot(iteration_list, loss_list_iter)
+plt.xlabel('iteration')
 plt.ylabel('Loss')
 plt.show()
