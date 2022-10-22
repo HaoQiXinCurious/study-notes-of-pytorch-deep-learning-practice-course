@@ -17,7 +17,7 @@ This course is designed to teach people how to use pytorch in practice.
 - [Course video page in Bilibili](https://www.bilibili.com/video/BV1Y7411d7Ys?p=2)
 - [x] Lesson3 Gradient descent algorithm
 - [Directory of Lesson3's study notes](studyNotes/lesson3)
-- [Explanatory video page in Bilibili](https://www.bilibili.com/video/BV1vd4y1q7av/?vd_source=991f5e314cf15db946768ec01c49fc50)
+- [Explanatory video page in Bilibili](https://www.bilibili.com/video/BV16D4y1r7Vm/)
 - [Course video page in Bilibili](https://www.bilibili.com/video/BV1Y7411d7Ys?p=3)
 - [ ] Lesson4 Back propagation
 - [ ] Lesson5 Using Pytorch to realize linear regression
