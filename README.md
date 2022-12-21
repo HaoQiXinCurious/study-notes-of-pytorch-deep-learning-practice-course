@@ -29,3 +29,4 @@ This course is designed to teach people how to use pytorch in practice.
 - [ ] Lesson11 Convolutional neural network (Advanced)
 - [ ] Lesson12 Recurrent neural network (basic)
 - [ ] Lesson13 Recurrent neural network (Advanced)
+for test
